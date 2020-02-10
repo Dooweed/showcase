@@ -1,0 +1,759 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Font Awesome's script -->
+    <script src="https://kit.fontawesome.com/9556bcd8bd.js" crossorigin="anonymous"></script>
+    
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+
+    <!-- Roboto font linking -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+
+    <title>Харатеристики нити</title>
+  </head>
+
+<nav class="nav-drill">
+  <ul class="nav-items nav-level-1">
+    <li class="nav-item">
+      <a class="nav-link menu-active-item" href="index.html">
+        Главная
+      </a>
+    </li>
+    <li class="nav-item nav-expand">
+      <a class="nav-link nav-expand-link" href="#">
+        Каталог
+      </a>
+      <ul class="nav-items nav-expand-content">
+        <li class="nav-item">
+          <a class="nav-link" href="M.html">
+            M type
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="MH.html">
+            MH type
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="MX.html">
+            MX type
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ST.html">
+            ST type
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="FMX.html">
+            FMX type
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Cosimo.html">
+            Cosimo type
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="LR.html">
+            LR type
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Viscose.html">
+            Viscose type
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="characteristics.html">
+        Характеристики нити
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+        Контакты
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+        О нас
+      </a>
+    </li>
+  </ul>
+</nav>
+
+
+  <body>
+    <div id="request_call_form" class="request_call">
+      <div class="request_call-main_block">
+
+        <div class="request_call-info_bar">
+          <div id="request_call_exit_button" class="request_call-exit_button">
+            <i class="fas fa-times-circle"></i>
+          </div>
+        </div>
+        <div class="request_call-form">
+          <form method="post" action="contactform.php">
+            <div class="form-group">
+              <label for="exampleInputName1">Имя</label>
+              <input name="name" type="text" class="form-control" id="exampleInputName1">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputNumber1">Телефон:</label>
+              <input name="number" type="text" class="form-control" id="exampleInputNumber1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">Мы не передадим ваш номер посторонним людям.</small>
+            </div>
+            <button type="submit" class="btn">Подтвердить</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar-normal_sized">
+      <div class="navbar-main_block">
+        <div class="navbar-logo_block">
+          <img src="img/logo.png" alt="lumiatex">
+        </div>
+        <button class="order_call_button_pressed navbar-order_call_button_block">
+          <p>Заказать звонок</p>
+        </button>
+        <div class="navbar-contacts_block">
+          <p><i class="fas fa-envelope-open-text"></i> lumiatex@mail.ru</p>
+          <p><i class="fas fa-phone-alt"></i> 8 495 227 33 34</p>
+        </div>
+      </div>
+    </nav>
+    <div id="navbar-normal_sized-menu_block" class="navbar-normal_sized-menu_block">
+      <div class="navbar-normal_sized-menu_content">
+        <a href="index.html" class="menu-item">Главная</a>
+        <div id="catalog-dropdown-div" class="menu-item catalog-dropdown">
+          <a id="catalog-dropdown-a" class="">Каталог <i class="fas fa-chevron-down"></i></a>
+          <a href="M.html" class="catalog-dropdown-item">M type</a>
+          <a href="MH.html" class="catalog-dropdown-item">MH type</a>
+          <a href="MX.html" class="catalog-dropdown-item">MX type</a>
+          <a href="ST.html" class="catalog-dropdown-item">ST type</a>
+          <a href="FMX.html" class="catalog-dropdown-item">FMX type</a>
+          <a href="LR.html" class="catalog-dropdown-item">LR type</a>
+          <a href="Cosimo.html" class="catalog-dropdown-item">Cosimo</a>
+          <a href="Viscose.html" class="catalog-dropdown-item">Viscose</a>
+        </div>
+        <a href="characteristics.php" class="menu-item menu-active-item">Характеристики нити</a>
+        <a href="#" class="menu-item">Контакты</a>
+        <a href="#" class="menu-item">О нас</a>
+      </div>
+    </div>
+
+    <nav class="navbar-short_sized">
+      <div class="navbar-short_sized-floor1">
+        <div class="dropdown">
+          <button class="btn btn-secondary" type="button" id="ham">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <p class="mail"><i class="fas fa-envelope-open-text"></i> lumiatex@mail.ru</p>
+      </div>
+      <div class="navbar-short_sized-floor2">
+        <div class="navbar-logo_block">
+          <img src="img/logo.png" alt="lumiatex">
+        </div>
+      </div>
+      <div style="background-color: rgba(0,78,49, 0.8);padding-bottom: 20px" class="navbar-short_sized-additional_content">
+        <p class="phone"><i class="fas fa-phone-alt"></i> 8 495 227 33 34</p>
+        <button class="order_call_button_pressed navbar-order_call_button_block">
+          <p>Заказать звонок</p>
+        </button>
+      </div>
+    </nav>
+
+
+    <section class="charactreistics-section-1">
+      <div class="main_content-1">
+        
+        <h2>Китай</h2>
+        <h3>Химическая характеристика</h3>
+        <table class="tableClass table-1">
+
+          <tr>
+            <th>Ironing</th>
+            <td>110*C 15sec</td>
+          </tr>
+          <tr>
+            <th>Dry Heat</th>
+            <td>180*C 60sec</td>
+          </tr>
+          <tr>
+            <th>Alkali, Solution of 1st Process</th>
+            <td>P.H=4.7, 60*C, 30min., 10% Acetic Add</td>
+          </tr>
+          <tr>
+            <th>Hot Water</th>
+            <td>90*C, 30min.</td>
+          </tr>
+          <tr>
+            <th>Hand Washing</th>
+            <td>0,5% Soap, 0,2% Sodium Corbonate Anhydride 60*C, 30min.</td>
+          </tr>
+          <tr>
+            <th>Rubbing</th>
+            <td>200g, 100 Times</td>
+          </tr>
+          <tr>
+            <th>Dry creaning</th>
+            <td>Trichioroethylene, Perchloroethylene, Petroleum Benzine, 25*C, 30min.</td>
+          </tr>
+          <tr>
+            <th>Steaming</th>
+            <td>100*C, 40min.</td>
+          </tr>
+          <tr>
+            <th>Boiling water</th>
+            <td>30min.-1hour</td>
+          </tr>
+          <tr>
+            <th>Acid</th>
+            <td>2% Oxalic Acid., 60*C, 10min.      2% Acetic Acid., 60*C, 10min.</td>
+          </tr>
+          <tr>
+            <th>Scouring for nylop, polyester, rayon, acetate, cotton</th>
+            <td>Sode Acid., 1g\l, 60*C, 30min.</td>
+          </tr>
+
+        </table>
+
+        <h2>PRODUCT SERTIFICATION KOREA</h2>
+        <table class="tableClass table-2">
+          
+          <div>
+            <tr class="newrow paint_row">
+              <th>TYPE</th>
+              <th>DESCRIPTI -ON/WIDTH</th>
+              <th>COLOR</th>
+              <th>Length TM/KG 12MICRON</th>
+              <th>Length TM/KG 15MICRON</th>
+              <th>Length TM/KG 25MICRON</th>
+              <th>PACKING</th>
+              <th>REMARKS</th>
+            </tr>
+          </div>
+          
+          <div>
+            <tr class="newrow">
+              <th rowspan="2">N<br>(Nylon film)</th>
+              <th>1/69"<br>(0.37mm)</th>
+              <th>Transparent</th>
+              <th></th>
+              <th>145,000m</th>
+              <th></th>
+              <th rowspan="2"><img src="img/pack1.jpg" alt=""></th>
+              <th rowspan="2">250g/BOBBIN<br>500g/CONE</th>
+            </tr>
+            <tr>
+              <th>1/100"<br>(0.25mm)</th>
+              <th>Transparent</th>
+              <th></th>
+              <th>210,000m</th>
+              <th></th>
+            </tr>
+          </div>
+          
+          <div>
+            <tr class="newrow paint_row">
+              <th rowspan="4">M<br>M-CONE</th>
+              <th rowspan="2">1/69"<br>(0.37mm)</th>
+              <th>SILVER</th>
+              <th>147,000m</th>
+              <th></th>
+              <th>75,000m</th>
+              <th rowspan="4"><img src="img/pack1.jpg" alt=""></th>
+              <th rowspan="4">150g/BOBBIN<br>300g/BOBBIN<br>600g/CONE</th>
+            </tr>
+            <tr class="paint_row">
+              <th>GOLD & COLOURS</th>
+              <th>130,000m</th>
+              <th></th>
+              <th>69,000m</th>
+            </tr>
+            <tr class="paint_row">
+              <th rowspan="2">1/100"<br>(0.25mm)</th>
+              <th>SILVER</th>
+              <th>218,000m</th>
+              <th></th>
+              <th>111,000m</th>
+            </tr>
+            <tr class="paint_row">
+              <th>GOLD & COLOURS</th>
+              <th>192,000m</th>
+              <th></th>
+              <th>103,000m</th>
+            </tr>
+          </div>
+          
+          <div>
+            <tr class="newrow">
+              <th rowspan="2">NX<br>(Nylon film supported with nylon 20D)</th>
+              <th>1/69"<br>(0.37mm)</th>
+              <th>Transparent</th>
+              <th></th>
+              <th>90,000m</th>
+              <th></th>
+              <th rowspan="2"><img src="img/pack2.jpg" alt=""></th>
+              <th rowspan="2">500g/CONE</th>
+            </tr>
+            <tr>
+              <th>1/100"<br>(0.25mm)</th>
+              <th>Transparent</th>
+              <th></th>
+              <th>108,000m</th>
+              <th></th>
+            </tr>
+          </div>
+          
+          <div>
+            <tr class="newrow paint_row">
+              <th rowspan="4">MX</th>
+              <th rowspan="2">1/69"<br>(0.37mm)</th>
+              <th>SILVER</th>
+              <th>86,500m</th>
+              <th></th>
+              <th>62,000m</th>
+              <th rowspan="4"><img src="img/pack2.jpg" alt=""></th>
+              <th rowspan="4">500g/CONE</th>
+            </tr>
+            <tr class="paint_row">
+              <th>GOLD & COLOURS</th>
+              <th>82,000m</th>
+              <th></th>
+              <th>58,000m</th>
+            </tr>
+            <tr class="paint_row">
+              <th rowspan="2">1/100"<br>(0.25mm)</th>
+              <th>SILVER</th>
+              <th>114,000m</th>
+              <th></th>
+              <th>75,000m</th>
+            </tr>
+            <tr class="paint_row">
+              <th>GOLD & COLOURS</th>
+              <th>108,000m</th>
+              <th></th>
+              <th>70,000m</th>
+            </tr>
+          </div>
+          
+          <div>
+            <tr class="newrow">
+              <th rowspan="2">MH</th>
+              <th rowspan="2">1/110"<br>(0.23mm)</th>
+              <th>SILVER</th>
+              <th>57,000m</th>
+              <th></th>
+              <th></th>
+              <th rowspan="2"><img src="img/pack2.jpg" alt=""></th>
+              <th rowspan="2">500g/CONE</th>
+            </tr>
+            <tr>
+              <th>GOLD & COLOURS</th>
+              <th>55,200m</th>
+              <th></th>
+              <th></th>
+            </tr>
+          </div>
+          
+          <div>
+            <tr class="newrow paint_row">
+              <th rowspan="2">MHS (MHSR) - <br>вышивка, ткачество, кнтинг, скручивание и плетение</th>
+              <th rowspan="2">1/110"<br>(0.23mm)</th>
+              <th>SILVER</th>
+              <th>45,800m</th>
+              <th></th>
+              <th></th>
+              <th rowspan="2"><img src="img/pack2.jpg" alt=""></th>
+              <th rowspan="2">500g/CONE<br>250g/CONE,<br>125g/CONE</th>
+            </tr>
+            <tr class="paint_row">
+              <th>GOLD & COLOURS</th>
+              <th>44,000m</th>
+              <th></th>
+              <th></th>
+            </tr>
+          </div>
+          
+          <div>
+            <tr class="newrow">
+              <th rowspan="2">& ST (ST, STF, STP) - <br>вышивка, ткачество, кнтинг, скручивание и плетение</th>
+              <th rowspan="2">1/69", 1/64"<br>(0.37mm)(0.40mm)</th>
+              <th>SILVER</th>
+              <th>39,500m</th>
+              <th></th>
+              <th></th>
+              <th rowspan="2"><img src="img/pack2.jpg" alt=""></th>
+              <th rowspan="2">250g/CONE</th>
+            </tr>
+            <tr>
+              <th>GOLD & COLOURS</th>
+              <th>38,000m</th>
+              <th></th>
+              <th></th>
+            </tr>
+          </div>
+
+        </table>
+
+        <h2>Thin yarn for sock and stocking industry.</h2>
+        <table class="tableClass table-3">
+          
+          <tr>
+            <th>TYPE</th>
+            <th>DESCRIPTI -ON/WIDTH</th>
+            <th>Length TM/KG 12MICRON</th>
+            <th>PACKING</th>
+            <th>REMARKS</th>
+          </tr>
+          <tr>
+            <th>FMX-TYPE 12MIC 1/168 2N15D/3F 500GRS/CONE</th>
+            <th>1/168"</th>
+            <th>181,000m</th>
+            <th rowspan="8"> <img src="img/pack2.jpg" alt=""></th>
+            <th>500g/CONE</th>
+          </tr>
+          <tr>
+            <th>FMX-TYPE 12MIC 1/168 2N20D NYLON 500GRS/CONE</th>
+            <th>1/168"</th>
+            <th>178,000m</th>
+            <th>500g/CONE</th>
+          </tr>
+          <tr>
+            <th>FMX-TYPE 12MIC 1/168 2N20D POLY 500GRS/CONE</th>
+            <th>1/168"</th>
+            <th>178,000m</th>
+            <th>500g/CONE</th>
+          </tr>
+          <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>500g/CONE</th>
+          </tr>
+          <tr>
+            <th>FMX-TYPE 12MIC 1/139 2N20D POLY 500GRS/CONE </th>
+            <th>1/139"</th>
+            <th>158,000m</th>
+            <th>500g/CONE</th>
+          </tr>
+          <tr>
+            <th>FMX-TYPE 12MIC 1/139 2N20D NYLON 500GRS/CONE </th>
+            <th>1/139"</th>
+            <th>158,000m</th>
+            <th>500g/CONE</th>
+          </tr>
+          <tr>
+            <th>FMX-TYPE 12MIC 1/139 2N12D/5F WOOLY NYLON 500GRS/CONE</th>
+            <th>1/139"</th>
+            <th>169,000m</th>
+            <th>500g/CONE</th>
+          </tr>
+          <tr>
+            <th>FMX-TYPE 12MIC 1/139 2N15D/3F WOOLY NYLON 500GRS/CONE </th>
+            <th>1/139"</th>
+            <th>163,000m</th>
+            <th>500g/CONE</th>
+          </tr>
+
+        </table>
+
+        <h2>TECHNICAL SPECIFICATION</h2>
+        <p>M,MX,MH,MHS,ST</p>
+        <table class="tableClass table-4">
+          
+          <tr>
+            <td>TEST ITEM</td>
+            <td>TEST CONDITION</td>
+            <td>RESULT</td>
+          </tr>
+          <tr>
+            <td>Ironing</td>
+            <td>140б 😂 15 SEC</td>
+            <td>Grade 4</td>
+          </tr>
+          <tr>
+            <td>Dry Heat</td>
+            <td>180б╔ 60 SEC</td>
+            <td>Grade 4</td>
+          </tr>
+          <tr>
+            <td>Salt Water</td>
+            <td>Sodium chloride 30g/зд  25б╔ 20min</td>
+            <td>Grade 4</td>
+          </tr>
+          <tr>
+            <td>Hot Water</td>
+            <td>60б╔ 30min</td>
+            <td>Grade 3-4</td>
+          </tr>
+          <tr>
+            <td>Hand Washing</td>
+            <td>0.5% Soap 0.2% Sodium carbonate Anhydride 60б╔ 30min</td>
+            <td>Grade 4</td>
+          </tr>
+          <tr>
+            <td>Acid</td>
+            <td>2% Oxalic Acid 60б╔ 10min / 2% Acetie Acid 60б╔ 10min</td>
+            <td>Grade 4</td>
+          </tr>
+          <tr>
+            <td>Sunlight</td>
+            <td>Carbon Arc Method 20Hr</td>
+            <td>Grade 5</td>
+          </tr>
+          <tr>
+            <td>Dry creaning</td>
+            <td>Perchlorethylene 25б╔ 30min</td>
+            <td>Grade 4</td>
+          </tr>
+          <tr>
+            <td>Steaming</td>
+            <td>100б╔ 30min for Silver / 70б╔ 40min for Gold and Colours</td>
+            <td>Grade 4</td>
+          </tr>
+
+        </table>
+
+        <p>*Remarks   <br>(1) The aboves are not guaranteed specifications but tested data by laboratory.   <br>(2) Figures shown here for all articles are tested data by laboratory, however wo suggest that you test  all materials for your own particular applications.    <br>(3) Beside the standard qualities and colors illustrated have, a variety of other qualities and colors are available at request.    </p>
+        <h3>Chemical characteristics</h3>
+        <table class="table-responsive table-5">
+
+          <tr>
+            <td>MARCA</td>
+            <td>HILOS PARA BORDAR<br>M-TYPE</td>
+            <td>HILOS PARA BORDAR<br>MX-TYPE</td>
+            <td>HILOS PARA BORDAR<br>MH-TYPE</td>
+            <td>HILOS PARA BORDAR<br>MHS-TYPE</td>
+            <td>HILOS PARA BORDAR<br>ST-TYPE</td>
+            <td>HILOS PARA BORDAR<br>STR-TYPE</td>
+            <td>HILOS PARA BORDAR<br>STR-CORD</td>
+            <td>HILOS PARA BORDAR<br>CORD</td>
+          </tr>
+          <tr>
+            <td>COMPOSITION</td>
+            <td>100% metallized polyester film</td>
+            <td>PET film 62%, Nylon 38%</td>
+            <td>PET film 35%, Polyester 65%</td>
+            <td>PET film 24%, Polyester 76%</td>
+            <td>PET film 34%, Rayon 66%</td>
+            <td>PET film 37%, Polyester 63%</td>
+            <td>PET film 17%, Spun polyester 83%</td>
+            <td>PET film 17%, Spun polyester 83</td>
+          </tr>
+          <tr>
+            <td>TENIDO</td>
+            <td>Various</td>
+            <td>Various</td>
+            <td>Various</td>
+            <td>Various</td>
+            <td>Various</td>
+            <td>Irise</td>
+            <td>Irise</td>
+            <td>Various</td>
+          </tr>
+          <tr>
+            <td>TORSION</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>TIPO DE TORSION (TYPE OF TORSION)</td>
+            <td>-</td>
+            <td>S Z</td>
+            <td>Z</td>
+            <td>Z</td>
+            <td>Z</td>
+            <td>Z</td>
+            <td>Z</td>
+            <td>Z</td>
+          </tr>
+          <tr>
+            <td>NUMERO DEVUELTA (NUMBER OF TWIST)</td>
+            <td>-</td>
+            <td>907</td>
+            <td>907</td>
+            <td>455</td>
+            <td>455</td>
+            <td>455</td>
+            <td>257</td>
+            <td>257</td>
+          </tr>
+          <tr>
+            <td>NUMERO DE CABOS</td>
+            <td>1</td>
+            <td>3</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>TIPO DE HILO</td>
+            <td>hilos metaloplasticos</td>
+            <td>hilos metaloplasticos</td>
+            <td>hilos metaloplasticos</td>
+            <td>hilos metaloplasticos</td>
+            <td>hilos metaloplasticos</td>
+            <td>hilos metaloplasticos</td>
+            <td>hilos metaloplasticos</td>
+            <td>hilos metaloplasticos</td>
+          </tr>
+          <tr>
+            <td>NUMERO DE DENIER</td>
+            <td>129</td>
+            <td>105</td>
+            <td>115</td>
+            <td>210</td>
+            <td>232</td>
+            <td>260</td>
+            <td>2300</td>
+            <td>2 100</td>
+          </tr>
+          <tr>
+            <td>DECITEX (SIZE)</td>
+            <td>25mic 1/69"</td>
+            <td>12mic 1/69" 2n20d nylon</td>
+            <td>12mic 1/110" 68d poly</td>
+            <td>12mic 1/110" 150d poly</td>
+            <td>12mic 1/64" 150d rayon</td>
+            <td>19mic 1/69 150d poly</td>
+            <td>19mic 1/32" 20's/4 spun poly</td>
+            <td>12mic 1/32" 20's/4 spun poly</td>
+          </tr>
+          <tr>
+            <td>TIPO DE FIBRA</td>
+            <td>polyester film</td>
+            <td>polyester film</td>
+            <td>polyester film</td>
+            <td>polyester film</td>
+            <td>polyester film</td>
+            <td>polyester film</td>
+            <td>polyester film</td>
+            <td>polyester film</td>
+          </tr>
+          <tr>
+            <td>TENACIDAD (TENACITY)</td>
+            <td>239.3gf, 103.60%</td>
+            <td>278.6, 35.43</td>
+            <td>403.7, 34.23</td>
+            <td>465.6, 18.15</td>
+            <td>436.5, 24.95</td>
+            <td>452.1, 21.5</td>
+            <td>460.2, 15.4</td>
+            <td>454.44, 16.81</td>
+          </tr>
+          <tr>
+            <td>UTILIZACION (USES)</td>
+            <td>narrow loom weaving, broad loom weaving, braiding, twisting, embroidery</td>
+            <td>weaving, flat bed knitting, circularknitting, warp knitting, embroidery, lace manufactiring, production of trimmings, twisting</td>
+            <td>weaving, flat bed knitting, circularknitting, warp knitting, embroidery, lace manufactiring, production of trimmings, twisting</td>
+            <td>weaving, flat bed knitting, circularknitting, warp knitting, embroidery, lace manufactiring, production of trimmings, twisting</td>
+            <td>weaving, flat bed knitting, circularknitting, warp knitting, embroidery, lace manufactiring, production of trimmings, twisting</td>
+            <td>weaving, flat bed knitting, circularknitting, warp knitting, embroidery, lace manufactiring, production of trimmings, twisting</td>
+            <td>weaving, flat bed knitting, circularknitting, warp knitting, embroidery, lace manufactiring, production of trimmings, twisting</td>
+            <td>weaving, flat bed knitting, circularknitting, warp knitting, embroidery, lace manufactiring, production of trimmings, twisting</td>
+          </tr>
+          <tr>
+            <td>PESO (PACKAGE)</td>
+            <td>100g                            silver: 7,500m/bbn, gold & colors: 7,100m/bbn</td>
+            <td>500g                           silver: 43,000m/cone, gold & colors: 41,500m/cone</td>
+            <td>500g                                   silver: 40,000m/cone, gold & colors: 38,000m/cone</td>
+            <td>125g                             all colors: 5,500m/cone </td>
+            <td>125g                                      all colors: 4,750m/cone </td>
+            <td>250g/9,050m</td>
+            <td>350g (+- 10 qty allowance) 2,900m</td>
+            <td>430g (+- 10 qty allowance)              silver: 3,045m/cone, gold & colors: 3,000m/cone</td>
+          </tr>
+          <tr>
+            <td>CANTIDAD (MOQ)</td>
+            <td>50 kgs as per color</td>
+            <td>50 kgs as per color</td>
+            <td>50 kgs as per color</td>
+            <td>50 kgs as per color</td>
+            <td>50 kgs as per color</td>
+            <td>50 kgs as per color</td>
+            <td>50 kgs as per color</td>
+            <td>50 kgs as per color</td>
+          </tr>
+
+        </table>
+      </div>
+    </section>
+
+
+
+
+
+
+
+    <footer class="footer">
+      <div class="main_content-4">
+
+        <div class="footer-sector-3">
+          <div class="footer-contacts">
+            <p class="mail">lumiatex@mail.ru</p>
+            <p class="phone">8 495 227 33 34</p>
+          </div>
+          <div class="footer-socials">
+            <div class="vk"><i class="fab fa-vk"></i></div>
+            <div class="fb"><i class="fab fa-facebook-square"></i></div>
+            <div class="ok"><i class="fab fa-odnoklassniki"></i></div>
+            <div class="tw"><i class="fab fa-twitter"></i></div>
+            <div class="gp"><i class="fab fa-google-plus"></i></div>
+          </div>
+        </div>
+
+        <div class="footer-sector-2 footer-nav-menu">
+          <a href="index.html" class="footer-menu-item">Главная</a>
+          <a href="characteristics.html" class="footer-menu-item menu-active-item">Характеристики нити</a>
+          <a href="#" class="footer-menu-item">Контакты</a>
+          <a href="#" class="footer-menu-item">О нас</a>
+        </div>
+        
+        <div class="footer-sector-1">
+          <div class="footer-logo">
+            <img src="img/logo.png" alt="">
+          </div>
+          <div class="footer-copyright_claims">
+            <p>© Copyright  2012 - 2019, lumiatex Co Ltd</p>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+    <script src="js/table_responsive.js"></script>
+
+    <script src="js/script.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
