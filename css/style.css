@@ -101,7 +101,7 @@
   width: 100%;
   height: 112px;
   padding: 20px 0;
-  background: url("../img/navbarBkg.jpg") 50% 50% no-repeat;
+  background: url("../img/navbarBkg.webp") 50% 50% no-repeat;
 }
 .navbar-normal_sized .navbar-main_block .navbar-logo_block {
   width: 253.44px;
@@ -215,7 +215,7 @@
   display: none;
   padding: 14px 0;
   width: 100%;
-  background: url("../img/navbarBkg.jpg") 50% 50% no-repeat;
+  background: url("../img/navbarBkg.webp") 50% 50% no-repeat;
 }
 .navbar-short_sized .dropdown-toggle::after {
   display: none;
@@ -376,7 +376,7 @@
 /*-----------------FOOTER STYLE----------------------*/
 .footer {
   height: 150px;
-  background: url("../img/footerBkg.jpg") 50% 50%;
+  background: url("../img/footerBkg.webp") 50% 50%;
 }
 @media only screen and (max-width: 650px) {
   .footer {
@@ -492,7 +492,7 @@
 /*-------------------- INDEX HTML STYLES ---- INDEX HTML STYLES --------------------*/
 /*--------------------SECTION 1 STYLE----------------------*/
 .index-section-1 {
-  background: url("../img/headerBkg.jpg") 50% 50% no-repeat;
+  background: url("../img/headerBkg.webp") 50% 50% no-repeat;
   height: 550px;
 }
 .index-section-1 .main_content-1 {
@@ -660,7 +660,7 @@
 /*-----------------SECTION 3 STYLE----------------------*/
 .index-section-3 {
   margin: 80px 0 0 0;
-  background: url("../img/catalogBkg.jpg") 50% 50%;
+  background: url("../img/catalogBkg.webp") 50% 50%;
 }
 @media only screen and (max-width: 650px) {
   .index-section-3 {
